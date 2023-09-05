@@ -61,5 +61,29 @@ function Input(props) {
 export default Input;
 
 const styles = StyleSheet.create({
-  
+  innerContainer: {
+    flex: 1,
+    padding: 16,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#ffffff",
+  },
+  inputText: {
+    borderWidth: 1,
+    borderColor: "#e4d0ff",
+    backgroundColor: "#ffffff",
+    borderRadius: 6,
+    color: "#120438",
+    padding: 16,
+    marginRight: 5,
+    width: "100%",
+  },
+  buttonContainer: {
+    flexDirection: "row",
+    marginTop: 10,
+  },
+  button: {
+    marginHorizontal: 10,
+    width: "30%",
+  },
 });
